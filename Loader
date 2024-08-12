@@ -1,0 +1,9 @@
+if not game.IsLoaded(game) then  
+    game.Loaded.Wait(game.Loaded)
+end
+
+if getgenv().Hyperion.Interface then
+    loadstring(game:HttpGet("https://", true))()
+else
+    loadstring(game:HttpGet("https://", true))()
+end
